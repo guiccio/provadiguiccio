@@ -1,0 +1,1034 @@
+Timestamp (4): Sat Nov 10 15:19:12 2018
+DetectX Swift v1.079
+
+macOS: Version 10.14.1 (Build 18B75)
+File System: apfs
+Temp: The thermal state is within normal limits.
+
+Boot time: Wed Nov 7 23:19:20 2018
+Uptime: 2 days, 16 hrs
+
+Spotlight status for /:
+	Indexing enabled. 
+System Integrity Protection status: enabled.
+Gatekeeper status: enabled for App Store and identified developers.
+FileVault is Off.
+
+Internet:	Reachable
+
+
+    Hardware Overview:
+
+      Model Name: MacBook Pro
+      Model Identifier: MacBookPro11,1
+      Processor Name: Intel Core i5
+      Processor Speed: 2,6 GHz
+      Number of Processors: 1
+      Total Number of Cores: 2
+      L2 Cache (per Core): 256 KB
+      L3 Cache: 3 MB
+      Memory: 8 GB
+      Boot ROM Version: 149.0.0.0.0
+      SMC Version (system): 2.16f68
+
+
+
+  Sharing Preferences:
+
+	File Sharing:  On
+	Screen Sharing:  On
+	Remote Management:  Off
+	Back To My Mac:  Off
+	Remote Login:  Off
+	Remote Apple Events:  Off
+
+
+3rd Party Kexts (loaded):
+
+
+
+ $PATH:
+
+PATH=/usr/bin:/bin:/usr/sbin:/sbin
+
+
+/etc/paths:
+	/usr/local/bin
+	/usr/bin
+	/bin
+	/usr/sbin
+	/sbin
+
+/etc/paths.d/:
+
+~/.bash_profile:
+	
+~/.bashrc:
+
+~/.bash_login:
+
+~/.profile:
+
+~/.bash_logout:
+
+
+PID	Status	Label
+472	0	com.adobe.GC.AGM
+6248	0	com.maintain.SystemEvents
+2057	0	com.coppertino.VOXAgent
+-	0	com.adobe.AdobeCreativeCloud
+-	0	com.openssh.ssh-agent
+-	0	com.google.keystone.system.agent
+-	0	com.coppertino.VOXCloud
+5186	0	WhatsApp.17072
+-	0	ru.yandex.desktop.disk.screenshots.10980
+-	0	com.oracle.java.Java-Updater
+552	0	com.adobe.CCXProcess.13588
+-	0	WhatsApp.ShipIt
+543	0	com.adobe.acc.AdobeDesktopService.13592.2BAE91A8-94C6-4815-B23B-9BB0952EA44A
+-	0	mega.mac.megaupdater
+551	0	com.adobe.accmac.13584
+-	0	com.dropbox.DropboxMacUpdate.agent
+6254	0	com.sqwarq.DetectX-Swift.17380
+
+
+ System Launchd processes:
+
+(dp)      0 	com.bombich.ccchelper
+0      - 	com.vix.cron
+0      0 	com.google.keystone.daemon
+0      - 	com.teamviewer.Helper
+(dp)      0 	Adobe_Genuine_Software_Integrity_Service
+207      - 	org.cups.cupsd
+0      0 	com.adobe.fpsaud
+0      - 	com.adobe.acc.installer
+
+
+
+ User Login Items:
+
+ Macs Fan Control
+ Dropbox
+
+
+
+
+ /Library/LaunchDaemons:
+
+	com.adobe.agsservice.plist
+		--> Program Arguments: /Library/Application Support/Adobe/AdobeGCClient/AGSService
+	
+	com.google.keystone.daemon.plist
+		--> Program Arguments: /Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/GoogleSoftwareUpdateDaemon
+	
+	com.apple.installer.osmessagetracing.plist
+		--> Program Arguments: /System/Library/PrivateFrameworks/OSInstaller.framework/Resources/OSMessageTracer
+	
+	com.teamviewer.Helper.plist
+		-> Program: /Library/PrivilegedHelperTools/com.teamviewer.Helper
+		--> Program Arguments: /Library/PrivilegedHelperTools/com.teamviewer.Helper
+	
+	com.teamviewer.teamviewer_service.plist
+		--> Program Arguments: /Applications/TeamViewer.app/Contents/MacOS/TeamViewer_Service
+		--> Program Arguments: -Module
+		--> Program Arguments: Full
+	
+	com.adobe.fpsaud.plist
+		--> Program Arguments: /Library/Application Support/Adobe/Flash Player Install Manager/fpsaud
+	
+	com.oracle.java.Helper-Tool.plist
+		--> Program Arguments: /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Resources/Helper-Tool
+	
+	com.adobe.acc.installer.plist
+		-> Program: /Library/PrivilegedHelperTools/com.adobe.acc.installer
+		--> Program Arguments: /Library/PrivilegedHelperTools/com.adobe.acc.installer
+	
+	com.maintain.HideSpotlightMenuBarIcon.plist
+		--> Program Arguments: /bin/chmod
+		--> Program Arguments: 600
+		--> Program Arguments: /System/Library/CoreServices/Spotlight.app/Contents/MacOS/Spotlight
+	
+	com.bombich.ccchelper.plist
+		-> Program: /Library/PrivilegedHelperTools/com.bombich.ccchelper
+		--> Program Arguments: /Library/PrivilegedHelperTools/com.bombich.ccchelper
+	
+
+
+
+ /Library/LaunchAgents:
+
+	com.adobe.AdobeCreativeCloud.plist
+		-> Program: /Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/MacOS/Creative Cloud
+		--> Program Arguments: /Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/MacOS/Creative Cloud
+		--> Program Arguments: --showwindow=false
+		--> Program Arguments: --onOSstartup=true
+	
+	com.maintain.SystemEvents.plist
+		--> Program Arguments: /System/Library/CoreServices/System Events.app/Contents/MacOS/System Events
+	
+	com.teamviewer.teamviewer_desktop.plist
+		--> Program Arguments: /Applications/TeamViewer.app/Contents/Helpers/TeamViewer_Desktop
+		--> Program Arguments: -RunAsAgent
+		--> Program Arguments: YES
+		--> Program Arguments: -Module
+		--> Program Arguments: Full
+	
+	com.google.keystone.agent.plist
+		--> Program Arguments: /Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/Resources/GoogleSoftwareUpdateAgent.app/Contents/MacOS/GoogleSoftwareUpdateAgent
+		--> Program Arguments: -runMode
+		--> Program Arguments: ifneeded
+	
+	com.maintain.PurgeInactiveMemory.plist
+		--> Program Arguments: /usr/sbin/purge
+	
+	com.adobe.GC.AGM.plist
+		-> Program: /Library/Application Support/Adobe/AdobeGCClient/AGMService
+		--> Program Arguments: /Library/Application Support/Adobe/AdobeGCClient/AGMService
+		--> Program Arguments: -mode=logon
+	
+	com.teamviewer.teamviewer.plist
+		--> Program Arguments: /Applications/TeamViewer.app/Contents/MacOS/TeamViewer
+		--> Program Arguments: -RunAsAgent
+		--> Program Arguments: YES
+	
+	com.oracle.java.Java-Updater.plist
+		--> Program Arguments: /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Resources/Java Updater.app/Contents/MacOS/Java Updater
+		--> Program Arguments: -bgcheck
+	
+	com.adobe.AAM.Updater-1.0.plist
+		-> Program: /Library/Application Support/Adobe/OOBE/PDApp/UWA/UpdaterStartupUtility
+		--> Program Arguments: /Library/Application Support/Adobe/OOBE/PDApp/UWA/UpdaterStartupUtility
+		--> Program Arguments: -mode=logon
+	
+	com.adobe.GC.Invoker-1.0.plist
+		-> Program: /Library/Application Support/Adobe/AdobeGCClient/agcinvokerutility
+		--> Program Arguments: /Library/Application Support/Adobe/AdobeGCClient/agcinvokerutility
+		--> Program Arguments: -mode=logon
+	
+
+
+
+ ~/Library/LaunchAgents:
+
+	mega.mac.megaupdater.plist
+		--> Program Arguments: /Applications/MEGAsync.app/Contents/MacOS/MEGAupdater
+	
+	com.adobe.GC.Invoker-1.0.plist
+		-> Program: /Library/Application Support/Adobe/AdobeGCClient/agcinvokerutility
+		--> Program Arguments: /Library/Application Support/Adobe/AdobeGCClient/agcinvokerutility
+		--> Program Arguments: -mode=scheduled
+	
+	com.dropbox.DropboxMacUpdate.agent.plist
+		--> Program Arguments: /Users/[U501]/Library/Dropbox/DropboxMacUpdate.app/Contents/MacOS/DropboxMacUpdate
+		--> Program Arguments: -check
+		--> Program Arguments: periodic
+	
+
+ User Crontab:
+
+	No cron jobs
+
+
+
+ /etc:
+
+	rc.common
+	php.ini.default-5.2-previous~orig
+	bootpd.plist
+	bashrc_Apple_Terminal
+	tsSleepSetting.xml
+	bashrc
+	krb5.keytab~orig
+	zshrc
+	ssh_config~orig
+	moduli~previous
+	rc.netboot
+	localtime~orig
+	efax.rc~previous
+	ntp.conf~orig
+	php.ini.default-previous~orig
+	php.ini.default-5.2-previous
+	sshd_config~previous
+	aliases
+	nalpeiron / .. children: 2
+	zprofile
+
+ / $Root:
+
+	TSSleepHandlerHelp / .. children: 1
+	installer.failurerequests
+	Informazioni utente
+	.file
+	.OSInstallerMessages
+	.dbfseventsd
+
+ ~/ $Home:
+
+	.config / .. children: 2
+	Music / .. children: 10
+	.kodi / .. children: 1
+	.rmembid
+	.buydifferent / .. children: 0
+	.CFUserTextEncoding
+	Yandex.Disk / .. children: 12
+	iCloud Drive (Archivio) / .. children: 15
+	.mime.types
+	OneDrive / .. children: 7
+	.local / .. children: 1
+	.boxsync / .. children: 0
+	Pictures / .. children: 143
+	W5FA211180DDF40F8B
+	.rnd
+	Desktop / .. children: 4
+	Library / .. children: 89
+	(null)
+	.oracle_jre_usage / .. children: 12
+	Parallels / .. children: 3
+	.transifexrc
+	Box Sync / .. children: 9
+	.android / .. children: 3
+	.cups / .. children: 1
+	Sites / .. children: 1
+	.bash_sessions / .. children: 45
+	Public / .. children: 4
+	.dropbox / .. children: 11
+	.yandex / .. children: 2
+	.cisco / .. children: 2
+	MEGA / .. children: 6
+	.ssh / .. children: 1
+	Applications (Parallels) / .. children: 4
+	Movies / .. children: 7
+	Applications / .. children: 6
+	Dropbox / .. children: 63
+	.Trash / .. children: 0
+	Doc / .. children: 10
+	Documents / .. children: 30
+	.mailcap
+	Downloads / .. children: 37
+	.cache / .. children: 3
+	.bash_history
+	.gtk-bookmarks
+
+
+
+ ~/Library:
+
+	Twitter / .. children: 1
+	Address Book Plug-Ins / .. children: 10
+	PDF Services / .. children: 0
+	HomeKit / .. children: 7
+	DES / .. children: 1
+	QuickLook / .. children: 0
+	Google / .. children: 2
+	Family / .. children: 1
+	OneDriveSDK / .. children: 0
+	Parallels / .. children: 4
+	Personas / .. children: 3
+	PhotoshopCrashes / .. children: 0
+	Facebook / .. children: 1
+	FrontBoard / .. children: 3
+	News / .. children: 1
+	Icons / .. children: 2
+	Dropbox / .. children: 1
+	.SavedStamps / .. children: 0
+	Fonts Disabled / .. children: 0
+	PersonalizationPortrait / .. children: 1
+	RAATServer / .. children: 2
+	Widgets / .. children: 3
+	com.amplitude.database
+
+
+
+ ~/Library/Application Support:
+
+	Apple / .. children: 1
+	Firefox / .. children: 4
+	Librarian / .. children: 0
+	com.apple.sbd / .. children: 1
+	Screen Sharing / .. children: 0
+	WordPress.com / .. children: 12
+	com.apple.voicememos / .. children: 0
+	SyncServices / .. children: 1
+	iTerm / .. children: 0
+	Mozilla / .. children: 1
+	FileMaker / .. children: 2
+	Spotydl / .. children: 4
+	com.apple.touristd / .. children: 17
+	Radioshift / .. children: 3
+	DiskImages / .. children: 1
+	Box / .. children: 1
+	EasyFind / .. children: 0
+	iLifeAssetManagement / .. children: 4
+	Mega Limited / .. children: 1
+	Transmit / .. children: 2
+	Devguru / .. children: 1
+	Spin Doctor X / .. children: 0
+	Cyberduck
+	NCH Software / .. children: 2
+	audacity / .. children: 6
+	Acorn / .. children: 6
+	Skype Helper / .. children: 1
+	MobileSync / .. children: 3
+	Roxio / .. children: 1
+	OpenVR / .. children: 0
+	com.apple.QuickLook / .. children: 1
+	MobileTrans / .. children: 4
+	eMuleTorrentgeoip / .. children: 1
+	Google / .. children: 7
+	Microsoft / .. children: 2
+	Spotify / .. children: 5
+	com.panic.Transmit / .. children: 1
+	Oracle / .. children: 2
+	dmd / .. children: 0
+	Rogue Amoeba / .. children: 1
+	com.maxthon.mac.Snapscreen / .. children: 0
+	Kodi / .. children: 8
+	silverlightOnChrome / .. children: 2
+	Java / .. children: 10
+	com.tupil.beamer / .. children: 1
+	T / .. children: 1
+	Path Finder / .. children: 5
+	WhatSize / .. children: 2
+	CEF / .. children: 1
+	VLC / .. children: 1
+	Gemini 2 / .. children: 11
+	PowerRegister / .. children: 3
+	RapidWeaver / .. children: 0
+	EtreCheck / .. children: 1
+	Adobe / .. children: 13
+	MediaHuman / .. children: 1
+	org.videolan.vlc / .. children: 1
+	PhoneExpander / .. children: 1
+	.ACCC_Lock
+	com.operasoftware.Opera / .. children: 81
+	NotificationCenter / .. children: 1
+	TeamViewer / .. children: 1
+	com.sqwarq.DetectX-Swift / .. children: 3
+	Sidify Music Converter / .. children: 3
+	Aperture / .. children: 0
+	com.clipy-app.Clipy / .. children: 2
+	Clipy / .. children: 6
+	onOne Software / .. children: 4
+	voicememod / .. children: 0
+	coconutBattery / .. children: 1
+	Yandex / .. children: 1
+	HandBrake / .. children: 8
+	com.colliderli.iina / .. children: 4
+	Yandex.Disk / .. children: 2
+	eTeks / .. children: 1
+	WAF / .. children: 4
+	Dropbox / .. children: 3
+	Transmission / .. children: 6
+	Preview / .. children: 0
+	LibreOffice / .. children: 1
+	WDufu / .. children: 1
+	com.cherpake.macrc.server / .. children: 1
+	Skype / .. children: 9
+	CCC Stats Service / .. children: 2
+	com.shapeservices.idisplay-host-full / .. children: 1
+	iSerial Reader / .. children: 4
+	Beamer / .. children: 1
+	Helper / .. children: 0
+	ComicBookLover / .. children: 2
+	WiFi Explorer / .. children: 4
+	com.bombich.ccc / .. children: 4
+	TorBrowser-Data / .. children: 3
+	DetectX Swift / .. children: 3
+	Notifyr / .. children: 2
+	TunesGo / .. children: 1
+	Copy Agent / .. children: 12
+	Editor / .. children: 0
+	WhatsApp / .. children: 32
+	aMule / .. children: 30
+	OpenMeta / .. children: 2
+	com.thesafemac.adwaremedic / .. children: 3
+	JREInstaller / .. children: 2
+	Epson / .. children: 1
+	Eltima Software / .. children: 1
+	com.parallels.toolbox / .. children: 3
+	.ADCS_Lock
+
+
+
+ ~/Library/Safari/Extensions:
+
+	*-- Could not read Folder --*
+
+
+
+ ~/Library/Internet Plug-Ins:
+
+	
+
+
+
+ /Users/Shared:
+
+	adi / .. children: 0
+	FileMaker / .. children: 1
+	SC Info / .. children: 0
+	.PE9F
+	Library / .. children: 2
+	Parallels / .. children: 1
+	Gemini 2 / .. children: 1
+	Adobe / .. children: 1
+	iSkysoftRingtoneMaker.plist
+
+
+
+ /Applications:
+
+	QREncoder.app
+	Spark.app
+	iNet Network Scanner.app
+	RapidWeaver 7.app
+	Pixelmator.app
+	Parallels Toolbox.app
+	VOX.app
+	HandBrake.app
+	WhatSize.app
+	Adobe Photoshop CC 2018 / .. children: 9
+	Books.app
+	Interphone Updater.app
+	TeamViewer.app
+	EasyFind.app
+	Yandex.Disk.app
+	Blackmagic Disk Speed Test.app
+	Telnet.app
+	Speedtest.app
+	Home.app
+	Google Chrome.app
+	Serial Box 09-2018.sb2
+	Dropbox.app
+	FileMaker Pro 14 Advanced / .. children: 7
+	IINA.app
+	Telegram.app
+	Parallels Desktop.app
+	Adobe Creative Cloud / .. children: 2
+	OneDrive.app
+	Cyberduck.app
+	News.app
+	coconutBattery.app
+	Spotify.app
+	Macs Fan Control.app
+	Mactracker.app
+	Utility CoreServices
+	DetectX Swift.app
+	MEGAsync.app
+	Carbon Copy Cloner.app
+	Mahjong Deluxe.app
+	Adobe Dreamweaver CC 2018 / .. children: 10
+	Adobe After Effects CC 2018 / .. children: 10
+	Adobe Muse CC 2018 / .. children: 4
+	Gemini 2.app
+	Transmission.app
+	SerialSeeker 1.3.15.app
+	Audacity.app
+	Glwin / .. children: 78
+	Stocks.app
+	LibreOffice Vanilla.app
+	rivendi / .. children: 1
+	Kindle.app
+	Yandex.app
+	WhatsApp.app
+	Transmit.app
+	Cakebrew.app
+	.fseventsd / .. children: 2
+	Bear.app
+	Clipy.app
+	Toast 11 Titanium / .. children: 8
+	Applications
+	WiFi Explorer.app
+	WordPress.com.app
+	EtreCheck.app
+	Box Sync.app
+	The Unarchiver.app
+	iSerial Reader.app
+	VLC (2.0.5).app
+	Shazam.app
+	Skype.app
+	VoiceMemos.app
+	AppCleaner.app
+	Airmail 3.app
+	Wunderlist.app
+	Firefox.app
+	TorBrowser.app
+	Kodi.app
+	Evernote.app
+	namebench.app
+	AMP.app
+	Skim.app
+	Twitter.app
+	YouTube to MP3.app
+	IP Scanner.app
+	Opera.app
+
+
+
+ /Library:
+
+	DropboxHelperTools / .. children: 2
+	Google / .. children: 2
+	ITESDK / .. children: 3
+	Automator / .. children: 94
+	Fonts Disabled / .. children: 16
+
+
+
+ /Library/Application Support:
+
+	Radioshift / .. children: 1
+	audacity / .. children: 1
+	Roxio / .. children: 2
+	Macromedia / .. children: 3
+	Google / .. children: 3
+	Microsoft / .. children: 2
+	Oracle / .. children: 1
+	Adobe / .. children: 32
+	Aperture / .. children: 1
+	onOne Software / .. children: 4
+	com.bombich.ccc / .. children: 12
+	Copy Agent / .. children: 2
+
+
+
+ /Library/Extensions:
+
+	EPSONUSBPrintClass.kext
+	DGVirtualDisplay.kext
+	AX88772.kext
+	InterphoneUpdaterSupport.kext
+
+
+
+ /Library/Internet Plug-Ins:
+
+	AdobeAAMDetect.plugin
+	Disabled Plug-Ins / .. children: 2
+	Flash Player.plugin
+	flashplayer.xpt
+	JavaAppletPlugin.plugin
+
+
+
+ /Library/Managed Preferences:
+
+	*-- Folder doesn't exist or is inaccessible --*
+
+
+
+ /Library/PrivilegedHelperTools:
+
+	com.teamviewer.Helper
+	com.bombich.ccchelper
+	com.adobe.acc.installer
+	Google Drive Icon Helper
+	com.microsoft.office.licensingV2.helper
+
+
+
+ /Library/ScriptingAdditions:
+
+	Adobe Unit Types.osax
+
+
+
+ /Library/StartupItems:
+
+	
+
+
+
+ /Library/Updates:
+
+	ProductMetadata.plist
+	PPDVersions.plist
+	index.plist
+
+
+
+Top Processes: 
+
+%CPU	PID	COMMAND	
+9.1		212		WindowServer 
+4.4		6254		DetectX Swift 
+4.2		0		kernel_task 
+2.0		111		hidd 
+1.0		6242		com.apple.WebKit 
+0.4		619		Dropbox 
+0.2		1366		cfprefsd 
+0.1		3034		Telegram 
+0.1		301		SystemUIServer 
+0.1		59		fseventsd 
+
+
+Running Processes: 
+
+PPID	PID	%CPU	USER	COMMAND	
+0		1		0.0		root		/sbin/launchd 
+1		52		0.0		root		/usr/sbin/syslogd 
+1		53		0.0		root		/usr/libexec/UserEventAgent (System) 
+1		57		0.0		root		/System/Library/PrivateFrameworks/Uninstall.framework/Resources/uninstalld 
+1		58		0.0		root		/usr/libexec/kextd 
+1		59		0.1		root		/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd 
+1		61		0.0		root		/System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoted 
+1		64		0.0		_appleevents		/System/Library/CoreServices/appleeventsd --server 
+1		65		0.0		root		/usr/sbin/systemstats --daemon 
+1		67		0.0		root		/usr/libexec/configd 
+1		68		0.0		root		/System/Library/CoreServices/powerd.bundle/powerd 
+1		71		0.0		root		/usr/libexec/logd 
+1		78		0.0		root		/System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Support/mds 
+1		79		0.0		_iconservices		/System/Library/CoreServices/iconservicesd 
+1		80		0.0		root		/usr/libexec/diskarbitrationd 
+1		83		0.0		root		/System/Library/CoreServices/backupd.bundle/Contents/Resources/backupd-helper -launchd 
+1		84		0.0		root		/usr/libexec/coreduetd 
+1		88		0.0		root		/usr/libexec/opendirectoryd 
+1		89		0.0		root		/System/Library/PrivateFrameworks/ApplePushService.framework/apsd 
+1		90		0.0		root		/System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbstated 
+1		91		0.0		root		/System/Library/CoreServices/launchservicesd 
+1		92		0.0		_timed		/usr/libexec/timed 
+1		93		0.0		root		/usr/sbin/securityd -i 
+1		94		0.0		_usbmuxd		/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources/usbmuxd -launchd 
+1		96		0.0		_locationd		/usr/libexec/locationd 
+1		98		0.0		root		autofsd		
+1		99		0.0		_displaypolicyd		/usr/libexec/displaypolicyd -k 1 
+1		100		0.0		root		/usr/libexec/dasd 
+1		101		0.0		root		/System/Library/PrivateFrameworks/Heimdal.framework/Helpers/kdc 
+1		105		0.0		[U501]		/System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow console 
+1		106		0.0		root		/System/Library/CoreServices/logind 
+1		107		0.0		root		/System/Library/PrivateFrameworks/GenerationalStorage.framework/Versions/A/Support/revisiond 
+1		108		0.0		root		/usr/sbin/KernelEventAgent 
+1		110		0.0		root		/usr/sbin/bluetoothd 
+1		111		2.0		_hidd		/usr/libexec/hidd 
+1		113		0.0		root		/usr/libexec/corebrightnessd --launchd 
+1		114		0.0		root		/usr/libexec/AirPlayXPCHelper 
+1		115		0.0		root		/usr/libexec/amfid 
+1		116		0.0		root		/usr/sbin/notifyd 
+1		117		0.0		_distnote		/usr/sbin/distnoted daemon 
+1		126		0.0		root		/System/Library/Frameworks/Security.framework/Versions/A/XPCServices/authd.xpc/Contents/MacOS/authd 
+1		133		0.0		root		/System/Library/CoreServices/coreservicesd 
+1		135		0.0		root		/System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/contextstored 
+1		143		0.0		root		/usr/libexec/trustd 
+1		144		0.0		root		/usr/libexec/nehelper 
+1		146		0.0		root		/System/Library/Frameworks/PCSC.framework/Versions/A/XPCServices/com.apple.ctkpcscd.xpc/Contents/MacOS/com.apple.ctkpcscd 
+1		147		0.0		root		/usr/libexec/airportd 
+1		149		0.0		_coreaudiod		/usr/sbin/coreaudiod 
+1		151		0.0		_ctkd		/System/Library/Frameworks/CryptoTokenKit.framework/ctkd -s 
+1		159		0.0		_networkd		/usr/libexec/symptomsd 
+1		172		0.0		_nsurlsessiond		/usr/libexec/nsurlsessiond --privileged 
+1		188		0.0		root		/usr/libexec/lsd runAsRoot 
+1		198		0.0		root		/System/Library/PrivateFrameworks/WirelessDiagnostics.framework/Support/awdd 
+1		199		0.0		_mdnsresponder		/usr/sbin/mDNSResponder 
+1		200		0.0		root		/System/Library/Frameworks/AudioToolbox.framework/AudioComponentRegistrar -daemon 
+1		201		0.0		root		/usr/sbin/mDNSResponderHelper 
+1		203		0.0		root		/usr/libexec/syspolicyd 
+1		207		0.0		root		/usr/sbin/cupsd -l 
+1		209		0.0		root		/usr/libexec/apfsd 
+1		211		0.0		root		/usr/libexec/ApplicationFirewall/socketfilterfw 
+1		212		9.3		_windowserver		/System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon 
+1		217		0.0		root		/usr/libexec/watchdogd 
+1		218		0.0		root		/usr/libexec/thermald 
+1		221		0.0		root		/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/CVMServer 
+1		223		0.0		root		/System/Library/PrivateFrameworks/TCC.framework/Resources/tccd system 
+1		232		0.0		root		/System/Library/Frameworks/Security.framework/Versions/A/XPCServices/com.apple.CodeSigningHelper.xpc/Contents/MacOS/com.apple.CodeSigningHelper 
+1		235		0.0		root		/System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mds_stores 
+1		244		0.0		root		/System/Library/PrivateFrameworks/PerformanceAnalysis.framework/Versions/A/XPCServices/com.apple.PerformanceAnalysis.animationperfd.xpc/Contents/MacOS/com.apple.PerformanceAnalysis.animationperfd 
+1		250		0.0		root		/usr/sbin/distnoted agent 
+1		265		0.0		root		/System/Library/PrivateFrameworks/CoreSymbolication.framework/coresymbolicationd 
+1		266		0.0		_nsurlstoraged		/usr/libexec/nsurlstoraged --privileged 
+1		267		0.0		_windowserver		/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService 
+1		268		0.0		_windowserver		/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService 
+1		274		0.0		root		/System/Library/CoreServices/sharedfilelistd 
+1		277		0.0		root		/usr/libexec/sysmond 
+65		278		0.0		root		/usr/sbin/systemstats --logger-helper /private/var/db/systemstats 
+1		280		0.0		_cmiodalassistants		/Library/CoreMediaIO/Plug-Ins/DAL/AppleCamera.plugin/Contents/Resources/AppleCameraAssistant 
+1		283		0.0		root		/System/Library/PrivateFrameworks/AmbientDisplay.framework/Versions/A/XPCServices/com.apple.AmbientDisplayAgent.xpc/Contents/MacOS/com.apple.AmbientDisplayAgent 
+1		290		0.0		root		/System/Library/Frameworks/GSS.framework/Helpers/GSSCred 
+1		292		0.0		root		/usr/libexec/securityd_service 
+1		294		0.0		[U501]		/usr/libexec/UserEventAgent (Aqua) 
+1		296		0.0		[U501]		/usr/sbin/distnoted agent 
+1		298		0.0		[U501]		/System/Library/CoreServices/talagent 
+1		299		0.0		[U501]		/System/Library/CoreServices/Dock.app/Contents/MacOS/Dock 
+1		300		0.0		[U501]		/System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter -L 
+1		301		0.0		[U501]		/System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer 
+1		302		0.0		[U501]		/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder 
+1		303		0.0		[U501]		/usr/libexec/lsd 
+1		304		0.0		[U501]		/usr/libexec/secd 
+1		305		0.0		[U501]		/usr/libexec/trustd --agent 
+1		308		0.0		[U501]		/usr/libexec/pboard 
+1		312		0.0		[U501]		/System/Library/CoreServices/sharedfilelistd 
+1		313		0.0		[U501]		/usr/libexec/pkd 
+1		315		0.0		[U501]		/System/Library/PrivateFrameworks/TCC.framework/Resources/tccd 
+1		319		0.0		[U501]		/System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/MacOS/ViewBridgeAuxiliary 
+1		320		0.0		[U501]		/System/Library/CoreServices/iconservicesagent 
+1		321		0.0		[U501]		/System/Library/PrivateFrameworks/CloudDocsDaemon.framework/Versions/A/Support/bird 
+1		322		0.0		[U501]		/System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd 
+1		323		0.0		[U501]		/System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/fontd 
+1		325		0.0		[U501]		/System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd 
+1		326		0.0		root		/usr/sbin/WirelessRadioManagerd 
+1		327		0.0		[U501]		/System/Library/PrivateFrameworks/TelephonyUtilities.framework/callservicesd 
+1		328		0.0		[U501]		/usr/libexec/nsurlsessiond 
+1		329		0.0		[U501]		/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd 
+1		330		0.0		[U501]		/System/Library/PrivateFrameworks/IMCore.framework/imagent.app/Contents/MacOS/imagent 
+1		332		0.0		[U501]		/System/Library/PrivateFrameworks/IMDPersistence.framework/XPCServices/IMDPersistenceAgent.xpc/Contents/MacOS/IMDPersistenceAgent 
+1		334		0.0		[U501]		/System/Library/CoreServices/backgroundtaskmanagementagent 
+1		336		0.0		[U501]		/System/Library/Frameworks/AddressBook.framework/Executables/ContactsAccountsService 
+1		337		0.0		[U501]		/usr/sbin/usernoted 
+1		338		0.0		[U501]		/System/Library/CoreServices/Spotlight.app/Contents/MacOS/Spotlight 
+1		339		0.0		[U501]		/Applications/MEGAsync.app/Contents/PlugIns/MEGAShellExtFinder.appex/Contents/MacOS/MEGAShellExtFinder 
+1		341		0.0		[U501]		/Applications/Box Sync.app/Contents/Plugins/FinderSyncExt.appex/Contents/MacOS/FinderSyncExt 
+1		342		0.0		root		/usr/sbin/filecoordinationd 
+1		343		0.0		[U501]		/Applications/OneDrive.app/Contents/PlugIns/FinderSync.appex/Contents/MacOS/FinderSync 
+1		344		0.0		[U501]		/Applications/Utilities/Adobe Sync/CoreSync/Core Sync.app/Contents/PlugIns/ACCFinderSync.appex/Contents/MacOS/ACCFinderSync 
+1		345		0.0		[U501]		/usr/libexec/secinitd 
+1		346		0.0		[U501]		/System/Library/PrivateFrameworks/UserActivity.framework/Agents/useractivityd 
+1		347		0.0		[U501]		/usr/libexec/sharingd 
+1		348		0.0		[U501]		/System/Library/CoreServices/NotificationCenter.app/Contents/MacOS/NotificationCenter 
+1		350		0.0		[U501]		/System/Library/PrivateFrameworks/CoreParsec.framework/parsecd 
+1		354		0.0		[U501]		/System/Library/CoreServices/Dock.app/Contents/XPCServices/com.apple.dock.extra.xpc/Contents/MacOS/com.apple.dock.extra 
+1		355		0.0		[U501]		/System/Library/Frameworks/InputMethodKit.framework/Resources/imklaunchagent 
+1		356		0.0		[U501]		/System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storelegacy 
+1		357		0.0		[U501]		/System/Library/PrivateFrameworks/CoreWLANKit.framework/Versions/A/XPCServices/WiFiProxy.xpc/Contents/MacOS/WiFiProxy 
+1		364		0.0		[U501]		/System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/commerce 
+1		365		0.0		[U501]		/System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod 
+1		366		0.0		[U501]		/System/Library/Input Methods/PressAndHold.app/Contents/PlugIns/PAH_Extension.appex/Contents/MacOS/PAH_Extension 
+1		368		0.0		[U501]		/System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeaccountd 
+1		369		0.0		[U501]		/System/Library/PrivateFrameworks/CalendarAgent.framework/Executables/CalendarAgent 
+1		371		0.0		root		/usr/sbin/wirelessproxd 
+1		372		0.0		[U501]		/usr/libexec/rapportd 
+1		374		0.0		[U501]		/System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/Support/akd 
+1		376		0.0		[U501]		/System/Library/PrivateFrameworks/CalendarNotification.framework/Versions/A/XPCServices/CalNCService.xpc/Contents/MacOS/CalNCService 
+1		377		0.0		[U501]		/System/Library/PrivateFrameworks/HomeKitDaemon.framework/Support/homed 
+1		381		0.0		[U501]		/System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent 
+1		382		0.0		[U501]		/usr/libexec/nsurlstoraged 
+1		384		0.0		[U501]		/System/Library/CoreServices/CoreLocationAgent.app/Contents/MacOS/CoreLocationAgent 
+1		395		0.0		_fpsd		/System/Library/PrivateFrameworks/CoreADI.framework/adid 
+1		409		0.0		[U501]		/System/Library/CoreServices/pbs 
+1		410		0.0		[U501]		/usr/libexec/routined LAUNCHED_BY_LAUNCHD 
+1		411		0.0		[U501]		/usr/libexec/SidecarRelay 
+1		412		0.0		root		/System/Library/CoreServices/CrashReporterSupportHelper server-init 
+1		414		0.0		[U501]		/System/Library/Image Capture/Support/icdd 
+1		417		0.0		[U501]		/usr/libexec/networkserviceproxy 
+1		419		0.0		[U501]		/System/Library/PrivateFrameworks/CloudDocsDaemon.framework/XPCServices/ContainerMetadataExtractor.xpc/Contents/MacOS/ContainerMetadataExtractor 
+1		422		0.0		[U501]		/System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/Resources/familycircled 
+1		423		0.0		[U501]		/System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/WiFiAgent 
+1		425		0.0		[U501]		/System/Library/CoreServices/LocationMenu.app/Contents/MacOS/LocationMenu 
+1		431		0.0		[U501]		/System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storedownloadd 
+1		437		0.0		[U501]		/System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/Support/assistantd 
+1		439		0.0		root		/usr/libexec/taskgated 
+1		440		0.0		_softwareupdate		/System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdated 
+1		441		0.0		root		/System/Library/CoreServices/Software Update.app/Contents/Resources/suhelperd 
+1		443		0.0		[U501]		/System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeassetd 
+1		446		0.0		[U501]		/System/Library/PrivateFrameworks/CommerceKit.framework/Resources/LaterAgent.app/Contents/MacOS/LaterAgent 
+1		461		0.0		[U501]		/System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd 
+1		464		0.0		[U501]		/System/Library/CoreServices/SocialPushAgent.app/Contents/MacOS/SocialPushAgent 
+1		467		0.0		[U501]		/usr/libexec/dmd 
+1		468		0.0		[U501]		/System/Library/CoreServices/Siri.app/Contents/MacOS/Siri launchd 
+1		472		0.0		[U501]		/Library/Application Support/Adobe/AdobeGCClient/AGMService -mode=logon 
+1		473		0.0		[U501]		/System/Library/CoreServices/AirPlayUIAgent.app/Contents/MacOS/AirPlayUIAgent --launchd 
+1		474		0.0		[U501]		/usr/libexec/knowledge-agent 
+1		475		0.0		[U501]		/System/Library/CoreServices/cloudpaird 
+1		478		0.0		[U501]		/System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbagent.app/Contents/MacOS/nbagent 
+1		479		0.0		[U501]		/System/Library/CoreServices/diagnostics_agent 
+1		536		0.0		[U501]		/Applications/Utilities/Adobe Application Manager/IPC/AdobeIPCBroker.app/Contents/MacOS/AdobeIPCBroker -launchedbyvulcan /Applications/Utilities/Adobe Creative Cloud/ACC/Creative Cloud.app/Contents/MacOS/Creative Cloud 
+1		540		0.0		root		/System/Library/CoreServices/iconservicesagent runAsRoot 
+1		543		0.0		[U501]		/Library/Application Support/Adobe/Adobe Desktop Common/ADS/Adobe Desktop Service.app/Contents/MacOS/Adobe Desktop Service --onOSstartup=true --showwindow=false --waitForRegistration=true 
+1		546		0.0		[U501]		/System/Library/PrivateFrameworks/AssetCacheServices.framework/Versions/A/XPCServices/AssetCacheLocatorService.xpc/Contents/MacOS/AssetCacheLocatorService -a 
+543		548		0.0		[U501]		/Library/Application Support/Adobe/Adobe Desktop Common/ADS/Adobe Desktop Service.app/Contents/Frameworks/AdobeCrashReporter.framework/Versions/A/AdobeCRDaemon.app/Contents/MacOS/AdobeCRDaemon 543 Adobe Desktop Service 4.3 /Library/Application Support/Adobe/Adobe Desktop Common/ADS/Adobe Desktop Service.app/Contents/Resources/AdobeDesktopService.icns /Library/Application Support/Adobe/Adobe Desktop Common/ADS/Adobe Desktop Service.app/Contents/Frameworks/AdobeCrashReporter.framework/Versions/A/Adobe Crash Reporter.app/Contents/MacOS/Adobe Crash Reporter 1 
+1		551		0.0		[U501]		/Applications/Utilities/Adobe Sync/CoreSync/Core Sync.app/Contents/MacOS/Core Sync 
+1		552		0.0		[U501]		/Applications/Utilities/Adobe Creative Cloud/CCXProcess/CCXProcess.app/Contents/MacOS/../libs/node /Applications/Utilities/Adobe Creative Cloud/CCXProcess/CCXProcess.app/Contents/MacOS/../js/main.js 
+551		555		0.0		[U501]		/Applications/Utilities/Adobe Sync/CoreSync/Core Sync.app/Contents/Frameworks/AdobeCrashReporter.framework/Versions/A/AdobeCRDaemon.app/Contents/MacOS/AdobeCRDaemon 551 Core Sync 2.4.3.114 /Applications/Utilities/Adobe Sync/CoreSync/Core Sync.app/Contents/Resources/CreativeCloudIcons.icns /Applications/Utilities/Adobe Sync/CoreSync/Core Sync.app/Contents/Frameworks/AdobeCrashReporter.framework/Versions/A/Adobe Crash Reporter.app/Contents/MacOS/Adobe Crash Reporter 0 
+1		558		0.0		root		/System/Library/CoreServices/SubmitDiagInfo server-init 
+1		561		0.0		[U501]		/System/Library/PrivateFrameworks/CacheDelete.framework/deleted 
+1		564		0.0		[U501]		/System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/XPCServices/media-indexer.xpc/Contents/MacOS/media-indexer 
+1		566		0.0		[U501]		/System/Library/Frameworks/iTunesLibrary.framework/Versions/A/XPCServices/com.apple.iTunesLibraryService.xpc/Contents/MacOS/com.apple.iTunesLibraryService 
+1		569		0.0		_spotlight		/usr/libexec/trustd --agent 
+1		583		0.0		_spotlight		/usr/sbin/distnoted agent 
+1		592		0.0		[U501]		/System/Library/CoreServices/Siri.app/Contents/XPCServices/SiriNCService.xpc/Contents/MacOS/SiriNCService 
+1		619		1.0		[U501]		/Applications/Dropbox.app/Contents/MacOS/Dropbox /firstrunupdate 353 
+1		621		0.0		[U501]		/Applications/Dropbox.app/Contents/MacOS/Dropbox -type:crashpad-handler --no-upload-gzip --no-rate-limit --capture-python --no-identify-client-via-url --database=/Users/[U501]/.dropbox/Crashpad --metrics-dir=0 --url=https://d.dropbox.com/report_crashpad_minidump --https-pin=0x23,0xf2,0xed,0xff,0x3e,0xde,0x90,0x25,0x9a,0x9e,0x30,0xf4,0xa,0xf8,0xf9,0x12,0xa5,0xe5,0xb3,0x69,0x4e,0x69,0x38,0x44,0x3,0x41,0xf6,0x6,0xe,0x1,0x4f,0xfa --https-pin=0xaf,0xf9,0x88,0x90,0x6d,0xde,0x12,0x95,0x5d,0x9b,0xeb,0xbf,0x92,0x8f,0xdc,0xc3,0x1c,0xce,0x32,0x8d,0x5b,0x93,0x84,0xf2,0x1c,0x89,0x41,0xca,0x26,0xe2,0x3,0x91 --https-pin=0x5a,0x88,0x96,0x47,0x22,0xe,0x54,0xd6,0xbd,0x8a,0x16,0x81,0x72,0x24,0x52,0xb,0xb5,0xc7,0x8e,0x58,0x98,0x4b,0xd5,0x70,0x50,0x63,0x88,0xb9,0xde,0xf,0x7,0x5f --https-pin=0xfe,0xa2,0xb7,0xd6,0x45,0xfb,0xa7,0x3d,0x75,0x3c,0x1e,0xc9,0xa7,0x87,0xc,0x40,0xe1,0xf7,0xb0,0xc5,0x61,0xe9,0x27,0xb9,0x85,0xbf,0x71,0x18,0x66,0xe3,0x6f,0x22 --https-pin=0x76,0xee,0x85,0x90,0x37,0x4c,0x71,0x54,0x37,0xbb,0xca,0x6b,0xba,0x60,0x28,0xea,0xdd,0xe2,0xdc,0x6d,0xbb,0xb8,0xc3,0xf6,0x10,0xe8,0x51,0xf1,0x1d,0x1a,0xb7,0xf5 --https-pin=0x6d,0xbf,0xae,0x0,0xd3,0x7b,0x9c,0xd7,0x3f,0x8f,0xb4,0x7d,0xe6,0x59,0x17,0xaf,0x0,0xe0,0xdd,0xdf,0x42,0xdb,0xce,0xac,0x20,0xc1,0x7c,0x2,0x75,0xee,0x20,0x95 --https-pin=0x1e,0xa3,0xc5,0xe4,0x3e,0xd6,0x6c,0x2d,0xa2,0x98,0x3a,0x42,0xa4,0xa7,0x9b,0x1e,0x90,0x67,0x86,0xce,0x9f,0x1b,0x58,0x62,0x14,0x19,0xa0,0x4,0x63,0xa8,0x7d,0x38 --https-pin=0x87,0xaf,0x34,0xd6,0x6f,0xb3,0xf2,0xfd,0xf3,0x6e,0x9,0x11,0x1e,0x9a,0xba,0x2f,0x6f,0x44,0xb2,0x7,0xf3,0x86,0x3f,0x3d,0xb,0x54,0xb2,0x50,0x23,0x90,0x9a,0xa5 --https-pin=0xbc,0xfb,0x44,0xaa,0xb9,0xad,0x2,0x10,0x15,0x70,0x6b,0x41,0x21,0xea,0x76,0x1c,0x81,0xc9,0xe8,0x89,0x67,0x59,0xf,0x6f,0x94,0xae,0x74,0x4d,0xc8,0x8b,0x78,0xfb --https-pin=0xab,0x98,0x49,0x52,0x76,0xad,0xf1,0xec,0xaf,0xf2,0x8f,0x35,0xc5,0x30,0x48,0x78,0x1e,0x5c,0x17,0x18,0xda,0xb9,0xc8,0xe6,0x7a,0x50,0x4f,0x4f,0x6a,0x51,0x32,0x8f --https-pin=0x49,0x5,0x46,0x66,0x23,0xab,0x41,0x78,0xbe,0x92,0xac,0x5c,0xbd,0x65,0x84,0xf7,0xa1,0xe1,0x7f,0x27,0x65,0x2d,0x5a,0x85,0xaf,0x89,0x50,0x4e,0xa2,0x39,0xaa,0xaa --https-pin=0x56,0x32,0xd9,0x7b,0xfa,0x77,0x5b,0xf3,0xc9,0x9d,0xde,0xa5,0x2f,0xc2,0x55,0x34,0x10,0x86,0x40,0x16,0x72,0x9c,0x52,0xdd,0x65,0x24,0xc8,0xa9,0xc3,0xb4,0x48,0x9f --https-pin=0x2a,0x8f,0x2d,0x8a,0xf0,0xeb,0x12,0x38,0x98,0xf7,0x4c,0x86,0x6a,0xc3,0xfa,0x66,0x90,0x54,0xe2,0x3c,0x17,0xbc,0x7a,0x95,0xbd,0x2,0x34,0x19,0x2d,0xc6,0x35,0xd0 --https-pin=0x32,0xb6,0x4b,0x66,0x72,0x7a,0x20,0x63,0xe4,0x6,0x6f,0x3b,0x95,0x8c,0xb0,0xaa,0xee,0x57,0x6a,0x5e,0xce,0xfd,0x95,0x33,0x99,0xbb,0x88,0x74,0x73,0x1d,0x95,0x87 --https-pin=0xf5,0x3c,0x22,0x5,0x98,0x17,0xdd,0x96,0xf4,0x0,0x65,0x16,0x39,0xd2,0xf8,0x57,0xe2,0x10,0x70,0xa5,0x9a,0xbe,0xd9,0x7,0x94,0x0,0xd9,0xf6,0x95,0x50,0x69,0x0 --https-pin=0x67,0xdc,0x4f,0x32,0xfa,0x10,0xe7,0xd0,0x1a,0x79,0xa0,0x73,0xaa,0xc,0x9e,0x2,0x12,0xec,0x2f,0xfc,0x3d,0x77,0x9e,0xa,0xa7,0xf9,0xc0,0xf0,0xe1,0xc2,0xc8,0x93 --https-pin=0x19,0x6,0xc6,0x12,0x4d,0xbb,0x43,0x85,0x78,0xd0,0xe,0x6,0x6d,0x50,0x54,0xc6,0xc3,0x7f,0xf,0xa6,0x2,0x8c,0x5,0x54,0x5e,0x9,0x94,0xed,0xda,0xec,0x86,0x29 --https-pin=0x1d,0x75,0xd0,0x83,0x1b,0x9e,0x8,0x85,0x39,0x4d,0x32,0xc7,0xa1,0xbf,0xdb,0x3d,0xbc,0x1c,0x28,0xe2,0xb0,0xe8,0x39,0x1f,0xb1,0x35,0x98,0x1d,0xbc,0x5b,0xa9,0x36 --annotation=host_int_account1_boot=44666471840 --annotation=machine_id=86519a11-4e74-56b5-bbf1-b513aaaa8b27 --annotation=platform=mac --annotation=platform_version=10.14.1 --handshake-fd=4 
+619		622		0.0		[U501]		/Applications/Dropbox.app/Contents/MacOS/Dropbox -type:exit-monitor -python-version:3.5.4 -method:collectupload -session-token:241fdaa2-0a92-4924-ac6d-58b22546cc54 -target-handle:619 -target-shutdown-event:4 -target-restart-event:6 -target-command-line:/Applications/Dropbox.app/Contents/MacOS/Dropbox /firstrunupdate 353 
+1		628		0.0		[U501]		/System/Library/PrivateFrameworks/KerberosHelper/Helpers/DiskUnmountWatcher 
+619		657		0.0		root		/Library/DropboxHelperTools/Dropbox_u501/dbfseventsd 
+657		658		0.1		root		/Library/DropboxHelperTools/Dropbox_u501/dbfseventsd 
+658		659		0.1		[U501]		/Library/DropboxHelperTools/Dropbox_u501/dbfseventsd 
+1		664		0.0		[U501]		/Applications/Dropbox.app/Contents/PlugIns/garcon.appex/Contents/MacOS/garcon 
+1		688		0.0		[U501]		/System/Library/CoreServices/SafariSupport.bundle/Contents/MacOS/SafariBookmarksSyncAgent 
+1		706		0.0		[U501]		/System/Library/Frameworks/AudioToolbox.framework/AudioComponentRegistrar 
+1		708		0.0		root		/usr/libexec/diskmanagementd 
+1		719		0.0		[U501]		/System/Library/CoreServices/cloudphotosd.app/Contents/MacOS/cloudphotosd 
+1		720		0.0		[U501]		/System/Library/PrivateFrameworks/CloudPhotoServices.framework/Versions/A/Frameworks/CloudPhotosConfigurationXPC.framework/Versions/A/XPCServices/com.apple.CloudPhotosConfiguration.xpc/Contents/MacOS/com.apple.CloudPhotosConfiguration 
+1		722		0.0		[U501]		/System/Library/PrivateFrameworks/PhotoLibraryPrivate.framework/Versions/A/Support/photolibraryd 
+1		723		0.0		[U501]		/System/Library/CoreServices/ScopedBookmarkAgent 
+1		724		0.0		[U501]		/System/Library/PrivateFrameworks/PhotoLibraryPrivate.framework/Versions/A/Frameworks/PhotoLibraryServices.framework/Versions/A/XPCServices/com.apple.photomoments.xpc/Contents/MacOS/com.apple.photomoments 
+1		725		0.0		[U501]		/System/Library/PrivateFrameworks/PhotoAnalysis.framework/Versions/A/Support/photoanalysisd 
+1		734		0.0		[U501]		/System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/corespotlightd 
+1		736		0.0		[U501]		/System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/suggestd 
+1		739		0.0		[U501]		/System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker-sizing -c MDSSizingWorker -m com.apple.mdworker.sizing 
+1		740		0.0		_spotlight		/System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker-sizing -c MDSSizingWorker -m com.apple.mdworker.sizing 
+1		749		0.0		[U501]		/usr/libexec/USBAgent 
+1		795		0.0		[U501]		/System/Library/CoreServices/EscrowSecurityAlert.app/Contents/MacOS/EscrowSecurityAlert 
+1		796		0.0		[U501]		/System/Library/PrivateFrameworks/CloudServices.framework/Versions/A/XPCServices/com.apple.sbd.xpc/Contents/MacOS/com.apple.sbd 
+1		818		0.0		root		/System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeinstalld 
+1		1145		0.0		[U501]		/System/Library/CoreServices/PowerChime.app/Contents/MacOS/PowerChime 
+1		1183		0.0		[U501]		/System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeuid.app/Contents/MacOS/storeuid 
+1		1184		0.0		[U501]		/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/XPCServices/com.apple.hiservices-xpcservice.xpc/Contents/MacOS/com.apple.hiservices-xpcservice 
+1		1191		0.0		_fpsd		/System/Library/PrivateFrameworks/CoreFP.framework/Versions/A/fpsd 
+1		1192		0.0		root		/System/Library/PrivateFrameworks/PackageKit.framework/Resources/system_installd 
+1		1193		0.0		root		/System/Library/PrivateFrameworks/PackageKit.framework/Resources/installd 
+1		1243		0.0		root		/usr/libexec/rtcreportingd 
+1		1329		0.0		[U501]		/System/Library/Frameworks/MediaAccessibility.framework/Versions/A/XPCServices/com.apple.accessibility.mediaaccessibilityd.xpc/Contents/MacOS/com.apple.accessibility.mediaaccessibilityd 
+1		1365		0.0		root		/usr/sbin/cfprefsd daemon 
+1		1366		0.4		[U501]		/usr/sbin/cfprefsd agent 
+1		1390		0.0		_locationd		/usr/sbin/cfprefsd agent 
+1		1398		0.0		[U501]		/System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdwrite 
+1		1423		0.0		[U501]		/System/Library/PrivateFrameworks/SoftwareUpdate.framework/Resources/SoftwareUpdateNotificationManager.app/Contents/MacOS/SoftwareUpdateNotificationManager 
+1		1448		0.0		[U501]		/Applications/Safari.app/Contents/MacOS/Safari 
+1		1449		0.0		[U501]		/System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.History.xpc/Contents/MacOS/com.apple.Safari.History 
+1		1452		0.0		[U501]		/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking 
+1		1454		0.0		[U501]		/Applications/Safari.app/Contents/XPCServices/com.apple.Safari.SandboxBroker.xpc/Contents/MacOS/com.apple.Safari.SandboxBroker 
+1		1455		0.0		[U501]		/usr/libexec/webinspectord 
+1		1456		0.0		[U501]		/System/Library/PrivateFrameworks/SafariSafeBrowsing.framework/com.apple.Safari.SafeBrowsing.Service 
+1		1457		0.0		[U501]		/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Storage.xpc/Contents/MacOS/com.apple.WebKit.Storage 
+1		1458		0.0		root		/usr/libexec/dprivacyd 
+1		1468		0.0		[U501]		/System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.ImageDecoder.xpc/Contents/MacOS/com.apple.Safari.ImageDecoder 
+1		1469		0.0		[U501]		/System/Library/Services/AppleSpell.service/Contents/MacOS/AppleSpell 
+1		1487		0.0		[U501]		/System/Library/PrivateFrameworks/FileProvider.framework/Support/fileproviderd 
+1		1494		0.0		[U501]		/System/Library/Frameworks/ApplicationServices.framework/Frameworks/PrintCore.framework/Versions/A/printtool agent 
+1		1497		0.0		root		/usr/sbin/spindump 
+1		1517		0.0		[U501]		/System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/Support/assistant_service 
+1		1528		0.0		[U501]		/System/Library/PrivateFrameworks/ContextKit.framework/Versions/A/XPCServices/ContextService.xpc/Contents/MacOS/ContextService 
+1		1550		0.0		[U501]		/usr/libexec/assertiond 
+1		1834		0.0		[U501]		/usr/libexec/mobileactivationd 
+1		1838		0.0		[U501]		/System/Library/PrivateFrameworks/IMDPersistence.framework/IMAutomaticHistoryDeletionAgent.app/Contents/MacOS/IMAutomaticHistoryDeletionAgent 
+1		2013		0.0		[U501]		/Applications/Dropbox.app/Contents/PlugIns/garcon.appex/Contents/MacOS/garcon 
+1		2015		0.0		[U501]		/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuickLookUI.framework/Versions/A/XPCServices/QuickLookUIService.xpc/Contents/MacOS/QuickLookUIService 
+1		2023		0.0		[U501]		/System/Library/Frameworks/MediaLibrary.framework/Versions/A/XPCServices/com.apple.MediaLibraryService.xpc/Contents/MacOS/com.apple.MediaLibraryService 
+1		2057		0.0		[U501]		com.coppertino.VOXAgent		
+1		2161		0.0		[U501]		/usr/libexec/avconferenced 
+1		2236		0.0		[U501]		/System/Library/PrivateFrameworks/PassKitCore.framework/passd 
+1		2237		0.0		_applepay		/usr/libexec/nfcd 
+1		2292		0.0		root		/usr/libexec/PerfPowerServices 
+1		2347		0.0		_locationd		/usr/sbin/distnoted agent 
+1		2936		0.0		[U501]		/System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent 
+1		3034		0.1		[U501]		/Applications/Telegram.app/Contents/MacOS/Telegram -psn_0_1757613 
+1		3036		0.0		[U501]		/System/Library/CoreServices/OSDUIHelper.app/Contents/MacOS/OSDUIHelper 
+1		3050		0.0		[U501]		/System/Library/PrivateFrameworks/DistributedEvaluation.framework/Versions/A/XPCServices/com.apple.siri-distributed-evaluation.xpc/Contents/MacOS/com.apple.siri-distributed-evaluation 
+1		3114		0.0		[U501]		/System/Library/PrivateFrameworks/BookKit.framework/Versions/A/XPCServices/com.apple.BKAgentService.xpc/Contents/MacOS/com.apple.BKAgentService 
+1		3146		0.0		root		/System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper 
+1		3667		0.0		root		/usr/libexec/keybagd -t 15 
+1		3668		0.0		root		/usr/libexec/dmd 
+1		3671		0.0		[U501]		/usr/libexec/spindump_agent 
+1		3672		0.0		[U501]		/System/Library/PrivateFrameworks/MessagesKit.framework/Resources/soagent.app/Contents/MacOS/soagent 
+1		3674		0.0		[U501]		/System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent 
+1		3677		0.0		_analyticsd		/System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsd 
+1		3684		0.0		root		/System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp -d 
+1		3685		0.0		root		/System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd 
+1		3686		0.0		[U501]		/System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp 
+1		3687		0.0		[U501]		/System/Library/Frameworks/CryptoTokenKit.framework/ctkd -tw 
+1		3695		0.0		[U501]		/System/Library/PrivateFrameworks/ProtectedCloudStorage.framework/Helpers/ProtectedCloudKeySyncing 
+1		3702		0.0		root		/usr/libexec/smd 
+1		3707		0.0		[U501]		/System/Library/Frameworks/Security.framework/Versions/A/Resources/CloudKeychainProxy.bundle/Contents/MacOS/CloudKeychainProxy 
+1		3708		0.0		[U501]		/System/Library/PrivateFrameworks/CoreFollowUp.framework/Versions/A/Support/followupd 
+1		3709		0.0		root		/System/Library/PrivateFrameworks/AccountPolicy.framework/XPCServices/com.apple.AccountPolicyHelper.xpc/Contents/MacOS/com.apple.AccountPolicyHelper 
+1		3711		0.0		root		/usr/libexec/rapportd --system 
+1		3772		0.0		[U501]		/System/Library/PrivateFrameworks/CommunicationsFilter.framework/CMFSyncAgent 
+1		3783		0.0		[U501]		/usr/libexec/swcd 
+1		3820		0.0		[U501]		/System/Library/CoreServices/mapspushd 
+1		3830		0.0		_softwareupdate		/System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdate_download_service 
+1		3831		0.0		[U501]		/System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdate_notify_agent 
+1		3833		0.0		[U501]		/System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/XPCServices/com.apple.CommerceKit.TransactionService.xpc/Contents/MacOS/com.apple.CommerceKit.TransactionService 
+1		3901		0.0		[U501]		/System/Library/CoreServices/FolderActionsDispatcher.app/Contents/MacOS/FolderActionsDispatcher launchd 
+1		3910		0.0		_assetcache		/usr/libexec/AssetCache/AssetCache 
+1		3951		0.0		root		/usr/libexec/mobileassetd 
+1		3992		0.0		[U501]		/System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.SearchHelper.xpc/Contents/MacOS/com.apple.Safari.SearchHelper 
+1		3998		0.0		[U501]		/System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTDecoderXPCService.xpc/Contents/MacOS/VTDecoderXPCService 
+1		4005		0.0		root		aslmanager		
+1		4024		0.0		[U501]		/System/Library/CoreServices/ReportCrash agent 
+1		4163		0.0		root		/usr/libexec/colorsync.displayservices 
+1		4164		0.0		root		/usr/libexec/colorsyncd 
+1		4168		0.0		root		/System/Library/CryptoTokenKit/com.apple.ifdreader.slotd/Contents/MacOS/com.apple.ifdreader 
+1		4169		0.0		root		/usr/libexec/usbd 
+1		4220		0.0		root		/usr/libexec/tailspind 
+1		4331		0.0		root		/usr/libexec/sandboxd 
+1		4398		0.0		root		/usr/sbin/aslmanager -s /var/log/eventmonitor 
+1		4768		0.0		[U501]		/System/Library/PrivateFrameworks/CoreRecents.framework/Versions/A/Support/recentsd 
+1		4918		0.0		[U501]		/System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent 
+1		4921		0.0		[U501]		/usr/libexec/SafariCloudHistoryPushAgent 
+1		4926		0.0		root		/usr/sbin/systemsoundserverd 
+1		4939		0.0		[U501]		/usr/libexec/keyboardservicesd 
+1		4941		0.0		[U501]		/System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/reversetemplated 
+1		5118		0.0		[U501]		/Applications/Preview.app/Contents/MacOS/Preview -psn_0_2568819 
+1		5121		0.0		[U501]		/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService 
+1		5122		0.0		[U501]		/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService 
+1		5123		0.0		[U501]		/Applications/Dropbox.app/Contents/PlugIns/garcon.appex/Contents/MacOS/garcon 
+1		5126		0.0		[U501]		/System/Library/PrivateFrameworks/PrintingPrivate.framework/Versions/A/PrintUITool 
+1		5131		0.0		[U501]		/System/Library/PrivateFrameworks/RemoteViewServices.framework/XPCServices/com.apple.security.pboxd.xpc/Contents/MacOS/com.apple.security.pboxd 
+1		5164		0.0		[U501]		/System/Library/PrivateFrameworks/FMClient.framework/Versions/A/XPCServices/FMIPClientXPCService.xpc/Contents/MacOS/FMIPClientXPCService 
+1		5165		0.0		[U501]		/usr/libexec/siriknowledged 
+1		5166		0.0		[U501]		/System/Library/Frameworks/iTunesLibrary.framework/Versions/A/XPCServices/com.apple.iTunesLibraryService.xpc/Contents/MacOS/com.apple.iTunesLibraryService 
+1		5186		0.0		[U501]		/Applications/WhatsApp.app/Contents/MacOS/WhatsApp 
+1		5187		0.0		_gamecontrollerd		/usr/libexec/gamecontrollerd 
+1		5189		0.0		[U501]		/Applications/WhatsApp.app/Contents/Frameworks/Electron Framework.framework/Resources/crashpad_handler --no-rate-limit --no-upload-gzip --database=/var/folders/35/x9mhk86d6vn8k6lhjyk4r_nr0000gn/T/WhatsApp Crashes --metrics-dir=/var/folders/35/x9mhk86d6vn8k6lhjyk4r_nr0000gn/T/WhatsApp Crashes --url=https://crashlogs.whatsapp.net/wa_clb_data?access_token=1063127757113399%7C745146ffa34413f9dbb5469f5370b7af --handshake-fd=19 
+5186		5190		0.0		[U501]		/Applications/WhatsApp.app/Contents/Frameworks/WhatsApp Helper.app/Contents/MacOS/WhatsApp Helper --type=gpu-process --no-sandbox --gpu-preferences=KAAAAAAAAACAAAAAAQAAAAAAAAAAAGAAEAAAAAAAAAAAAAAAAAAAADgBAAAmAAAAMAEAAAAAAAA4AQAAAAAAAEABAAAAAAAASAEAAAAAAABQAQAAAAAAAFgBAAAAAAAAYAEAAAAAAABoAQAAAAAAAHABAAAAAAAAeAEAAAAAAACAAQAAAAAAAIgBAAAAAAAAkAEAAAAAAACYAQAAAAAAAKABAAAAAAAAqAEAAAAAAACwAQAAAAAAALgBAAAAAAAAwAEAAAAAAADIAQAAAAAAANABAAAAAAAA2AEAAAAAAADgAQAAAAAAAOgBAAAAAAAA8AEAAAAAAAD4AQAAAAAAAAACAAAAAAAACAIAAAAAAAAQAgAAAAAAABgCAAAAAAAAIAIAAAAAAAAoAgAAAAAAADACAAAAAAAAOAIAAAAAAABAAgAAAAAAAEgCAAAAAAAAUAIAAAAAAABYAgAAAAAAABAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAAAAAAALAAAAEAAAAAAAAAAAAAAADAAAABAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAAAAAAAPAAAAEAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAABIAAAAQAAAAAAAAAAAAAAATAAAAEAAAAAAAAAABAAAABQAAABAAAAAAAAAAAQAAAAsAAAAQAAAAAAAAAAEAAAAMAAAAEAAAAAAAAAABAAAADQAAABAAAAAAAAAAAQAAAA8AAAAQAAAAAAAAAAEAAAAQAAAAEAAAAAAAAAABAAAAEgAAABAAAAAAAAAAAQAAABMAAAAQAAAAAAAAAAMAAAAFAAAAEAAAAAAAAAADAAAACwAAABAAAAAAAAAAAwAAAAwAAAAQAAAAAAAAAAMAAAANAAAAEAAAAAAAAAADAAAADwAAABAAAAAAAAAAAwAAABAAAAAQAAAAAAAAAAMAAAASAAAAEAAAAAAAAAADAAAAEwAAABAAAAAAAAAABQAAAAUAAAAQAAAAAAAAAAUAAAALAAAAEAAAAAAAAAAFAAAADQAAABAAAAAAAAAABQAAAA8AAAAQAAAAAAAAAAUAAAAQAAAAEAAAAAAAAAAFAAAAEgAAABAAAAAAAAAABQAAABMAAAAQAAAAAAAAAAYAAAAFAAAAEAAAAAAAAAAGAAAACwAAABAAAAAAAAAABgAAAA0AAAAQAAAAAAAAAAYAAAAPAAAAEAAAAAAAAAAGAAAAEAAAABAAAAAAAAAABgAAABIAAAAQAAAAAAAAAAYAAAATAAAA --service-request-channel-token=B4E9168CA2B11ACC97F6B169532C15BE 
+5186		5191		0.0		[U501]		/Applications/WhatsApp.app/Contents/Frameworks/WhatsApp Helper.app/Contents/MacOS/WhatsApp Helper --type=renderer --no-sandbox --service-pipe-token=E2E336B54E102E819FAC95632F061E33 --lang=it --standard-schemes=whatsapp --app-path=/Applications/WhatsApp.app/Contents/Resources/app.asar --node-integration=false --webview-tag=false --no-sandbox --preload=/Applications/WhatsApp.app/Contents/Resources/app.asar/preload.js --num-raster-threads=2 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --enable-compositor-image-animations --service-request-channel-token=E2E336B54E102E819FAC95632F061E33 --renderer-client-id=4 
+1		5195		0.0		[U501]		/System/Library/PrivateFrameworks/CallHistory.framework/Support/CallHistorySyncHelper 
+1		5244		0.0		[U501]		/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService 
+1		5245		0.0		[U501]		/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService 
+1		5246		0.0		[U501]		/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService 
+1		5247		0.0		[U501]		/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService 
+1		5250		0.0		[U501]		/Applications/Pixelmator.app/Contents/MacOS/Pixelmator -psn_0_2654856 
+1		5252		0.0		[U501]		/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService 
+1		5253		0.0		[U501]		/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService 
+1		5254		0.0		[U501]		/System/Library/Frameworks/ColorSync.framework/Support/colorsync.useragent 
+1		5255		0.0		[U501]		/System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/LegacyExternalColorPickerService.xpc/Contents/MacOS/LegacyExternalColorPickerService 
+1		5256		0.0		[U501]		/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService 
+1		5257		0.0		[U501]		/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService 
+1		5259		0.0		[U501]		/Applications/Dropbox.app/Contents/PlugIns/garcon.appex/Contents/MacOS/garcon 
+1		5262		0.0		[U501]		/Applications/Pixelmator.app/Contents/XPCServices/com.pixelmatorteam.PXFontTest.xpc/Contents/MacOS/com.pixelmatorteam.PXFontTest 
+1		5298		0.0		[U501]		/System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/com.apple.appkit.xpc.openAndSavePanelService.xpc/Contents/MacOS/com.apple.appkit.xpc.openAndSavePanelService 
+1		5301		0.0		[U501]		/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService 
+1		5302		0.0		[U501]		/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService 
+1		5315		0.0		[U501]		/System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/com.apple.appkit.xpc.openAndSavePanelService.xpc/Contents/MacOS/com.apple.appkit.xpc.openAndSavePanelService 
+1		5317		0.0		[U501]		/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService 
+1		5318		0.0		[U501]		/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService 
+1		5397		0.0		root		/usr/bin/sysdiagnose 
+1		5398		0.0		[U501]		/System/Library/PrivateFrameworks/QuickLookThumbnailing.framework/Support/com.apple.quicklook.ThumbnailsAgent 
+1		5415		0.0		[U501]		/System/Library/PrivateFrameworks/ToneLibrary.framework/Versions/A/XPCServices/com.apple.tonelibraryd.xpc/Contents/MacOS/com.apple.tonelibraryd 
+1		5418		0.0		[U501]		/usr/libexec/fmfd 
+1		5419		0.0		[U501]		/System/Library/PrivateFrameworks/CharacterPicker.framework/Versions/A/XPCServices/com.apple.CharacterPicker.FileService.xpc/Contents/MacOS/com.apple.CharacterPicker.FileService 
+1		5465		0.0		[U501]		/System/Library/CoreServices/AirPort Base Station Agent.app/Contents/MacOS/AirPort Base Station Agent --launchd 
+1		5471		0.0		_netbios		/usr/sbin/netbiosd 
+299		5488		0.0		[U501]		/System/Library/CoreServices/Dock.app/Contents/Resources/DashboardClient.app/Contents/MacOS/DashboardClient 
+299		5489		0.0		[U501]		/System/Library/CoreServices/Dock.app/Contents/Resources/DashboardClient.app/Contents/MacOS/DashboardClient 
+1		5498		0.0		root		/usr/libexec/periodic-wrapper daily 
+1		5580		0.0		[U501]		/System/Library/PrivateFrameworks/CoreCDP.framework/Versions/A/Resources/cdpd 
+1		5581		0.0		root		/usr/libexec/findmydeviced 
+1		5583		0.0		[U501]		/System/Library/PrivateFrameworks/PhotoLibraryPrivate.framework/Versions/A/Frameworks/PhotoLibraryServices.framework/Versions/A/XPCServices/com.apple.photomodel.xpc/Contents/MacOS/com.apple.photomodel 
+1		5588		0.0		[U501]		/usr/libexec/silhouette 
+1		5593		0.0		root		/usr/libexec/periodic-wrapper weekly 
+1		5621		0.0		_datadetectors		/usr/libexec/DataDetectorsSourceAccess 
+1		5645		0.0		[U501]		/usr/libexec/videosubscriptionsd 
+1		5646		0.0		[U501]		/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent 
+1		5649		0.0		root		/usr/sbin/ocspd 
+1		5655		0.0		[U501]		/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Support/fontworker 
+1		5685		0.0		[U501]		/System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper 
+1		5694		0.0		root		/System/Library/PrivateFrameworks/DiskImages.framework/Resources/hdiejectd 
+1		5696		0.0		[U501]		/System/Library/PrivateFrameworks/DiskImages.framework/Resources/diskimages-helper -uuid 9D4AE008-199E-4898-B5D1-2656BFDA7E85 -post-exec 4 
+1		6076		0.0		[U501]		/System/Library/CoreServices/CoreServicesUIAgent.app/Contents/MacOS/CoreServicesUIAgent 
+1		6101		0.0		[U501]		/System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared 
+1		6104		0.0		[U501]		/System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared 
+1		6111		0.0		[U501]		/System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared 
+1		6112		0.0		_spotlight		/System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared 
+1		6237		0.0		[U501]		/System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared 
+1		6239		0.0		[U501]		/System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared 
+1		6242		0.9		[U501]		/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent 
+1		6248		0.0		[U501]		/System/Library/CoreServices/System Events.app/Contents/MacOS/System Events 
+1		6251		0.0		[U501]		/System/Library/PrivateFrameworks/SyncedDefaults.framework/Support/syncdefaultsd 
+1		6252		0.0		[U501]		/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService 
+1		6253		0.0		[U501]		/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService 
+1		6254		5.1		[U501]		/Applications/DetectX Swift.app/Contents/MacOS/DetectX Swift 
+
+«»EOF»«		
+
+
